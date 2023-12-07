@@ -1,5 +1,5 @@
 [submodule "ubuntu_docker"]
-	path = ubuntu_docker
+	path = ./
 	url = https://github.com/TKUwengkunduo/ubuntu_docker.git
 [submodule "Foreview_ws/src/dynamixel_controller_pkg"]
 	path = Foreview_ws/src/dynamixel_controller_pkg
