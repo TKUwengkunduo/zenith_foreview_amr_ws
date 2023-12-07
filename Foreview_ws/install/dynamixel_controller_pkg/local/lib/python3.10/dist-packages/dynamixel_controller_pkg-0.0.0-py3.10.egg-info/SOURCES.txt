@@ -1,0 +1,8 @@
+setup.py
+dynamixel_controller_pkg/__init__.py
+dynamixel_controller_pkg.egg-info/PKG-INFO
+dynamixel_controller_pkg.egg-info/SOURCES.txt
+dynamixel_controller_pkg.egg-info/dependency_links.txt
+dynamixel_controller_pkg.egg-info/top_level.txt
+dynamixel_controller_pkg/msg/__init__.py
+dynamixel_controller_pkg/msg/_motor_speeds.py

@@ -1,0 +1,4 @@
+source;share/simulate_remote_communication_pkg/local_setup.bash
+source;share/simulate_remote_communication_pkg/local_setup.dsv
+source;share/simulate_remote_communication_pkg/local_setup.sh
+source;share/simulate_remote_communication_pkg/local_setup.zsh

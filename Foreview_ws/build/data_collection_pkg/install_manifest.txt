@@ -1,0 +1,15 @@
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/ament_index/resource_index/package_run_dependencies/data_collection_pkg
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/ament_index/resource_index/parent_prefix_path/data_collection_pkg
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/environment/ament_prefix_path.sh
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/environment/ament_prefix_path.dsv
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/environment/path.sh
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/environment/path.dsv
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/local_setup.bash
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/local_setup.sh
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/local_setup.zsh
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/local_setup.dsv
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/package.dsv
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/ament_index/resource_index/packages/data_collection_pkg
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/cmake/data_collection_pkgConfig.cmake
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/cmake/data_collection_pkgConfig-version.cmake
+/home/weng/work/Foreview_ws/install/data_collection_pkg/share/data_collection_pkg/package.xml

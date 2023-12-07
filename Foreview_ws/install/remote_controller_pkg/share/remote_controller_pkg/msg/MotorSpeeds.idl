@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from remote_controller_pkg/msg/MotorSpeeds.msg
+// generated code does not contain a copyright notice
+
+
+module remote_controller_pkg {
+  module msg {
+    struct MotorSpeeds {
+      int64 motor_speed1;
+
+      int64 motor_speed2;
+    };
+  };
+};

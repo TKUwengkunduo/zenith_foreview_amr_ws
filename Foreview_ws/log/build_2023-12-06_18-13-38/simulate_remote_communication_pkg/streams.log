@@ -1,0 +1,44 @@
+[0.039s] Invoking command in '/home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/weng/work/Foreview_ws/src/simulate_remote_communication_pkg -DCMAKE_INSTALL_PREFIX=/home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.407s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.457s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.458s] -- Added test 'lint_cmake' to check CMake code style
+[0.458s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.458s] -- Added test 'xmllint' to check XML markup files
+[0.459s] -- Configuring done
+[0.461s] -- Generating done
+[0.462s] -- Build files have been written to: /home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg
+[0.504s] Invoked command in '/home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/weng/work/Foreview_ws/src/simulate_remote_communication_pkg -DCMAKE_INSTALL_PREFIX=/home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg
+[0.505s] Invoking command in '/home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg -- -j16 -l16
+[0.527s] Invoked command in '/home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg -- -j16 -l16
+[0.544s] Invoking command in '/home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg
+[0.554s] -- Install configuration: ""
+[0.554s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/ament_index/resource_index/package_run_dependencies/simulate_remote_communication_pkg
+[0.554s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/ament_index/resource_index/parent_prefix_path/simulate_remote_communication_pkg
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/ament_prefix_path.sh
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/ament_prefix_path.dsv
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/path.sh
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/path.dsv
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.bash
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.sh
+[0.555s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.zsh
+[0.556s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.dsv
+[0.556s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/package.dsv
+[0.556s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/ament_index/resource_index/packages/simulate_remote_communication_pkg
+[0.556s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/cmake/simulate_remote_communication_pkgConfig.cmake
+[0.556s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/cmake/simulate_remote_communication_pkgConfig-version.cmake
+[0.556s] -- Installing: /home/weng/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/package.xml
+[0.558s] Invoked command in '/home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/weng/work/Foreview_ws/build/simulate_remote_communication_pkg

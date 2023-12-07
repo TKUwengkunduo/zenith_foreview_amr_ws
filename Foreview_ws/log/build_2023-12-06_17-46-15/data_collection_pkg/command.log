@@ -1,0 +1,6 @@
+Invoking command in '/home/weng/work/Foreview_ws/build/data_collection_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/weng/work/Foreview_ws/src/data_collection_pkg -DCMAKE_INSTALL_PREFIX=/home/weng/work/Foreview_ws/install/data_collection_pkg
+Invoked command in '/home/weng/work/Foreview_ws/build/data_collection_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/weng/work/Foreview_ws/src/data_collection_pkg -DCMAKE_INSTALL_PREFIX=/home/weng/work/Foreview_ws/install/data_collection_pkg
+Invoking command in '/home/weng/work/Foreview_ws/build/data_collection_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/weng/work/Foreview_ws/build/data_collection_pkg -- -j16 -l16
+Invoked command in '/home/weng/work/Foreview_ws/build/data_collection_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/weng/work/Foreview_ws/build/data_collection_pkg -- -j16 -l16
+Invoking command in '/home/weng/work/Foreview_ws/build/data_collection_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/weng/work/Foreview_ws/build/data_collection_pkg
+Invoked command in '/home/weng/work/Foreview_ws/build/data_collection_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/weng/work/Foreview_ws/build/data_collection_pkg
