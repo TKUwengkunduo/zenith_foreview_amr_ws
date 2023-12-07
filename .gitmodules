@@ -1,9 +1,9 @@
-[submodule "ubuntu_docker"]
-	path = ./
-	url = https://github.com/TKUwengkunduo/ubuntu_docker.git
 [submodule "Foreview_ws/src/dynamixel_controller_pkg"]
 	path = Foreview_ws/src/dynamixel_controller_pkg
 	url = https://github.com/TKUwengkunduo/dynamixel_controller_pkg.git
 [submodule "Foreview_ws/src/remote_controller_pkg"]
 	path = Foreview_ws/src/remote_controller_pkg
 	url = https://github.com/TKUwengkunduo/remote_controller_pkg.git
+[submodule "ubuntu_docker"]
+	path = ubuntu_docker
+	url = https://github.com/TKUwengkunduo/ubuntu_docker.git
