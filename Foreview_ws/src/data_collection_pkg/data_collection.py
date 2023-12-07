@@ -1,6 +1,7 @@
 import os
 import time
 import cv2
+import json
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int32
@@ -45,6 +46,7 @@ def find_camera():
             return cap
 
 def capture_and_save(data_collector, cap, folder_name):
+    data_list = []  # List to hold all data entries
     while True:
         ret, frame = cap.read()
         if ret:
@@ -56,8 +58,18 @@ def capture_and_save(data_collector, cap, folder_name):
             with data_collector.lock:
                 data_to_save = data_collector.latest_data if data_collector.latest_data is not None else -1
 
-            with open(f"{folder_name}/data.txt", "a") as file:
-                file.write(f"{filename}: {data_to_save}\n")
+            # Create a dictionary for the current data
+            data_entry = {
+                "image": filename,
+                "input_direction": data_to_save,
+                "output_direction": 9999
+            }
+            data_list.append(data_entry)
+
+            # Write the JSON data to file
+            with open(f"{folder_name}/data.json", "w") as json_file:
+                json.dump(data_list, json_file, indent=4)
+
         time.sleep(1)
 
 def main():
@@ -80,3 +92,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
