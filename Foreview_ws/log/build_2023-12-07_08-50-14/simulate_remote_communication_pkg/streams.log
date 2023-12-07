@@ -1,0 +1,44 @@
+[0.056s] Invoking command in '/home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/simulate_remote_communication_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg
+[0.172s] -- The C compiler identification is GNU 9.4.0
+[0.261s] -- The CXX compiler identification is GNU 9.4.0
+[0.294s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.425s] -- Detecting C compile features - done
+[0.449s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.602s] -- Detecting CXX compile features
+[0.603s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[2.409s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[2.596s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[2.714s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.715s] -- Added test 'lint_cmake' to check CMake code style
+[2.716s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.717s] -- Added test 'xmllint' to check XML markup files
+[2.720s] -- Configuring done (2.6s)
+[2.729s] -- Generating done (0.0s)
+[2.731s] -- Build files have been written to: /home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg
+[2.747s] Invoked command in '/home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg' returned '0': /usr/local/bin/cmake /home/orin/work/Foreview_ws/src/simulate_remote_communication_pkg -DCMAKE_INSTALL_PREFIX=/home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg
+[2.755s] Invoking command in '/home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg -- -j12 -l12
+[2.825s] Invoked command in '/home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg' returned '0': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg -- -j12 -l12
+[2.954s] Invoking command in '/home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg
+[2.998s] -- Install configuration: ""
+[2.998s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/ament_index/resource_index/package_run_dependencies/simulate_remote_communication_pkg
+[2.998s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/ament_index/resource_index/parent_prefix_path/simulate_remote_communication_pkg
+[2.999s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/ament_prefix_path.sh
+[2.999s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/ament_prefix_path.dsv
+[2.999s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/path.sh
+[2.999s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/environment/path.dsv
+[3.000s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.bash
+[3.000s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.sh
+[3.000s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.zsh
+[3.000s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/local_setup.dsv
+[3.001s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/package.dsv
+[3.001s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/ament_index/resource_index/packages/simulate_remote_communication_pkg
+[3.001s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/cmake/simulate_remote_communication_pkgConfig.cmake
+[3.001s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/cmake/simulate_remote_communication_pkgConfig-version.cmake
+[3.002s] -- Installing: /home/orin/work/Foreview_ws/install/simulate_remote_communication_pkg/share/simulate_remote_communication_pkg/package.xml
+[3.016s] Invoked command in '/home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg' returned '0': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/build/simulate_remote_communication_pkg

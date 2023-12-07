@@ -1,8 +1,8 @@
-# Install script for directory: /home/weng/work/Foreview_ws/build/remote_controller_pkg/remote_controller_pkg__py
+# Install script for directory: /home/orin/work/Foreview_ws/build/remote_controller_pkg/remote_controller_pkg__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/weng/work/Foreview_ws/install/remote_controller_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/orin/work/Foreview_ws/install/remote_controller_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

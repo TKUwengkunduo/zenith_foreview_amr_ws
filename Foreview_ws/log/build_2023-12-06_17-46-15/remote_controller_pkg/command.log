@@ -1,4 +1,0 @@
-Invoking command in '/home/weng/work/Foreview_ws/build/remote_controller_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/weng/work/Foreview_ws/build/remote_controller_pkg -- -j16 -l16
-Invoked command in '/home/weng/work/Foreview_ws/build/remote_controller_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/weng/work/Foreview_ws/build/remote_controller_pkg -- -j16 -l16
-Invoking command in '/home/weng/work/Foreview_ws/build/remote_controller_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/weng/work/Foreview_ws/build/remote_controller_pkg
-Invoked command in '/home/weng/work/Foreview_ws/build/remote_controller_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/weng/work/Foreview_ws/build/remote_controller_pkg

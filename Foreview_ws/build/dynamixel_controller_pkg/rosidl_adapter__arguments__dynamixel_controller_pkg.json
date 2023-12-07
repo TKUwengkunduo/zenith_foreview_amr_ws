@@ -1,6 +1,6 @@
 {
   "package_name": "dynamixel_controller_pkg",
   "non_idl_tuples": [
-    "/home/weng/work/Foreview_ws/src/dynamixel_controller_pkg:msg/MotorSpeeds.msg"
+    "/home/orin/work/Foreview_ws/src/dynamixel_controller_pkg:msg/MotorSpeeds.msg"
   ]
 }
