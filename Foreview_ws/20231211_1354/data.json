@@ -1,0 +1,26 @@
+[
+    {
+        "image": "20231211_135421.png",
+        "color_image": "zenith_20231211_135421.png",
+        "input_direction": -1,
+        "output_direction": 9999
+    },
+    {
+        "image": "20231211_135422.png",
+        "color_image": "zenith_20231211_135422.png",
+        "input_direction": -1,
+        "output_direction": 9999
+    },
+    {
+        "image": "20231211_135423.png",
+        "color_image": "zenith_20231211_135423.png",
+        "input_direction": -1,
+        "output_direction": 9999
+    },
+    {
+        "image": "20231211_135424.png",
+        "color_image": "zenith_20231211_135424.png",
+        "input_direction": -1,
+        "output_direction": 9999
+    }
+]

@@ -5,6 +5,8 @@ import json
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int32
+from sensor_msgs.msg import Image  # Import for image messages
+from cv_bridge import CvBridge    # Import to convert ROS Image messages to OpenCV images
 from rclpy.qos import QoSProfile, QoSHistoryPolicy, QoSReliabilityPolicy
 import threading
 
@@ -24,9 +26,22 @@ class DataCollector(Node):
         self.latest_data = -1
         self.lock = threading.Lock()
 
+        # New subscription for the /camera/color/image_raw topic
+        self.color_image_subscription = self.create_subscription(
+            Image,
+            '/camera/color/image_raw',
+            self.color_image_callback,
+            qos_profile)
+        self.latest_color_image = None
+        self.cv_bridge = CvBridge()
+
     def listener_callback(self, msg):
         with self.lock:
             self.latest_data = msg.data
+
+    def color_image_callback(self, msg):
+        with self.lock:
+            self.latest_color_image = self.cv_bridge.imgmsg_to_cv2(msg, "bgr8")
 
 def create_directory():
     folder_name = time.strftime("%Y%m%d_%H%M")
@@ -57,10 +72,20 @@ def capture_and_save(data_collector, cap, folder_name):
 
             with data_collector.lock:
                 data_to_save = data_collector.latest_data if data_collector.latest_data is not None else -1
+                color_image = data_collector.latest_color_image
+
+            # Save the color image from the ROS topic
+            if color_image is not None:
+                color_image_filename = f"{folder_name}/zenith_{timestamp}.png"
+                cv2.imwrite(color_image_filename, color_image)
+                print(f"Captured color image {color_image_filename}")
 
             # Create a dictionary for the current data
+            filename = f"{timestamp}.png"
+            color_image_filename = f"zenith_{timestamp}.png"
             data_entry = {
                 "image": filename,
+                "color_image": color_image_filename if color_image is not None else None,
                 "input_direction": data_to_save,
                 "output_direction": 9999
             }
@@ -92,4 +117,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
