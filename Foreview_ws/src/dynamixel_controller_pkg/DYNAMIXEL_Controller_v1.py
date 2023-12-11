@@ -123,7 +123,7 @@ class DualMotorController(Node):
     
     def speed_callback(self, msg):
         # Set the received speed for both motors
-        self.set_moving_speed(DXL_ID1, msg.motor_speed1)
+        self.set_moving_speed(DXL_ID1, -msg.motor_speed1)
         self.set_moving_speed(DXL_ID2, msg.motor_speed2)
 
     def pin(self):

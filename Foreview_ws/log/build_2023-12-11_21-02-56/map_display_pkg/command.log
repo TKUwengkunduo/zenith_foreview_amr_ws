@@ -1,0 +1,4 @@
+Invoking command in '/home/orin/work/Foreview_ws/build/map_display_pkg': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/build/map_display_pkg -- -j12 -l12
+Invoked command in '/home/orin/work/Foreview_ws/build/map_display_pkg' returned '0': /usr/local/bin/cmake --build /home/orin/work/Foreview_ws/build/map_display_pkg -- -j12 -l12
+Invoking command in '/home/orin/work/Foreview_ws/build/map_display_pkg': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/build/map_display_pkg
+Invoked command in '/home/orin/work/Foreview_ws/build/map_display_pkg' returned '0': /usr/local/bin/cmake --install /home/orin/work/Foreview_ws/build/map_display_pkg
